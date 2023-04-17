@@ -17,7 +17,7 @@ while True:
 		cek_internet = False
 
 	if cek_internet == True:
-		db_bank = pymysql.connect(host="database1.c1bxfqu7h4ww.us-east-1.rds.amazonaws.com", user="admin", passwd="gungkrisna", db="database1") 
+		db_bank = pymysql.connect(host="database1.c1bxfqu7h4ww.us-east-1.rds.amazonaws.com", user="", passwd="", db="database1") 
 		cursor_bank = db_bank.cursor() 
 
 		db_belanja = pymysql.connect(host="localhost", user="root", passwd="gungkrisna", db="db_sinkron1") 
